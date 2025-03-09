@@ -1,6 +1,8 @@
 #ifndef BLE_DIST
 #define BLE_DIST
 
+#include <esp_timer.h>
+
 #define TAG "ble_dist"
 #define TIMEOUT 120
 #define BUF_SIZE 9
